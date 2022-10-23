@@ -4,8 +4,8 @@
     "op": "replace",
     "path": "/attributes/handbook/excludeByType",
     "value": {
-      "*-fire-*": true,
-      "*-red-*": true
+      "*-fire-*": false,
+      "*-red-*": false
     }
   }
 ]

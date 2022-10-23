@@ -6,5 +6,5 @@
     },
     width: 1,
     height: 2,
-    output: { type: "block", code: "game:plaster-plain", quantity: 6 }
+    output: { type: "block", code: "game:plaster-plain", quantity: 4 }
 }
