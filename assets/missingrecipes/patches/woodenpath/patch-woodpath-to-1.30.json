@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/walkspeedmultiplier",
+    "value": 1.3,
+    "file": "game:blocktypes/wood/path.json"
+  }
+]

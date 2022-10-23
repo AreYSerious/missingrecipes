@@ -1,0 +1,22 @@
+[
+  {
+    "op": "replace",
+    "path": "/variantgroups/0/states",
+    "value": [
+      "aged",
+      "bismuth",
+      "bismuthbronze",
+      "blackbronze",
+      "brass",
+      "copper",
+      "gold",
+      "iron",
+      "meteoriciron",
+      "molybdochalkos",
+      "silver",
+      "steel",
+      "tinbronze"
+    ],
+    "file": "game:blocktypes/metal/torchholder.json"
+  }
+]

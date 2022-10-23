@@ -1,0 +1,58 @@
+[
+	{
+		ingredientPattern: "H_S,_SP",
+		ingredients: {
+			"H": { type: "item", code: "game:hoe-*", isTool: true  },
+			"S": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["medium"], quantity: 2 },
+			"P": { type: "block", code: "game:peatbrick", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofing-sod-east-free", quantity: 4   },
+	},
+	{
+		ingredientPattern: "HS_,SPS",
+		ingredients: {
+			"H": { type: "item", code: "game:hoe-*", isTool: true  },
+			"S": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["medium"], quantity: 2 },
+			"P": { type: "block", code: "game:peatbrick", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingridge-sod-ns-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "HSP,SSS",
+		ingredients: {
+			"H": { type: "item", code: "game:hoe-*", isTool: true  },
+			"S": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["medium"], quantity: 2 },
+			"P": { type: "block", code: "game:peatbrick", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingtip-sod-free", quantity: 4  }
+	},
+	{
+		ingredientPattern: "HS,SP,S_",
+		ingredients: {
+			"H": { type: "item", code: "game:hoe-*", isTool: true  },
+			"S": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["medium"], quantity: 2 },
+			"P": { type: "block", code: "game:peatbrick", quantity: 2 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:slantedroofingcornerinner-sod-east-free", quantity: 4  }
+
+	},
+	{
+		ingredientPattern: "H_S,PSS",
+		ingredients: {
+			"H": { type: "item", code: "game:hoe-*", isTool: true  },
+			"S": { type: "block", code: "game:soil-*-none", name: "grade", allowedVariants: ["medium"], quantity: 2 },
+			"P": { type: "block", code: "game:peatbrick", quantity: 2 }
+		},
+		width: 3,
+		height: 2,
+		output: { type: "block", code: "game:slantedroofingcornerouter-sod-east-free", quantity: 4  }
+	}
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "op": "add",
+    "path": "/ingredients/I/allowedVariants",
+    "value": [
+      "copper",
+      "brass",
+      "blackbronze",
+      "bismuth",
+      "tinbronze",
+      "bismuthbronze",
+      "iron",
+      "molybdochalkos",
+      "silver",
+      "gold",
+      "meteoriciron",
+      "steel"
+    ],
+    "file": "game:recipes/grid/torchholder.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/I/name",
+    "value": "material",
+    "file": "game:recipes/grid/torchholder.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredients/I/code",
+    "value": "metalplate-*",
+    "file": "game:recipes/grid/torchholder.json"
+  },
+  {
+    "op": "replace",
+    "path": "/output/code",
+    "value": "torchholder-{material}-empty-north",
+    "file": "game:recipes/grid/torchholder.json"
+  },
+  {
+    "op": "add",
+    "path": "/ingredients/H",
+    "value": {
+      "type": "item",
+      "code": "hammer-*"
+    },
+    "file": "game:recipes/grid/torchholder.json"
+  },
+  {
+    "op": "replace",
+    "path": "/output/quantity",
+    "value": 4,
+    "file": "game:recipes/grid/torchholder.json"
+  },
+  {
+    "op": "replace",
+    "path": "/ingredientPattern",
+    "value": "H\tI",
+    "file": "game:recipes/grid/torchholder.json"
+  }
+]

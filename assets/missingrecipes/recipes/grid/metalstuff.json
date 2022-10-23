@@ -1,0 +1,31 @@
+[
+	{
+		ingredientPattern: "SS,S_,S_",
+		ingredients: {
+			"S": { type: "block", code: "game:metal-scraps", quantity: 1 }
+		},
+		width: 2,
+		height: 3,
+		output: { type: "block", code: "game:torchholder-aged-empty-north", quantity: 2   }
+	},
+	{
+		ingredientPattern: "RSR",
+		ingredients: {
+			"R": { type: "item", code: "game:gear-rusty*", quantity: 1 },
+			"S": { type: "block", code: "game:metal-scraps", quantity: 2 }
+		},
+		width: 3,
+		height: 1,
+		output: { type: "block", code: "game:metal-parts", quantity: 1   }
+	},
+	{
+		ingredientPattern: "_S_,SXS,_S_",
+		ingredients: {
+			"S": { type: "block", code: "game:metal-scraps", quantity: 2 },
+			"X": { type: "block", code: "game:metal-scraps", quantity: 1 }
+		},
+		width: 3,
+		height: 3,
+		output: { type: "block", code: "game:chandelier-candle0", quantity: 1   }
+	}
+]

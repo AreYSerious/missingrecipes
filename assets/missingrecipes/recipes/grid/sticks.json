@@ -1,0 +1,22 @@
+[
+	{
+		ingredientPattern: "S,P",
+		ingredients: {
+			"S": { type: "item", code: "game:saw-*", isTool: true },
+			"P": { type: "item", code: "game:plank-*", quantity: 2 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4   },
+	},
+	{
+		ingredientPattern: "A,F",
+		ingredients: {
+			"A": { type: "item", code: "game:axe-*", isTool: true },
+			"F": { type: "item", code: "game:firewood", quantity: 1 }
+		},
+		width: 1,
+		height: 2,
+		output: { type: "item", code: "game:stick", quantity: 4   },
+	}
+]

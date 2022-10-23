@@ -1,0 +1,10 @@
+{
+    ingredientPattern: "L	D",
+    ingredients: {
+        "L": { type: "item", code: "game:quicklime" },
+        "D": { type: "block", code: "game:packeddirt" }
+    },
+    width: 1,
+    height: 2,
+    output: { type: "block", code: "game:plaster-plain", quantity: 6 }
+}
