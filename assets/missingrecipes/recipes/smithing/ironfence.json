@@ -1,0 +1,16 @@
+{
+	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: [
+		"iron"
+	  ] },
+	pattern: [[
+		"_______________",
+		"___x_x_x_x_x___",
+		"___xxxxxxxxx___",
+		"___x_x_x_x_x___",
+		"___xxxxxxxxx___",
+		"___x_x_x_x_x___",
+		"_______________"
+	]],
+	name: "IronFenceSegment",
+	output: { type: "block", code: "game:ironfence-base-ew"  }
+}

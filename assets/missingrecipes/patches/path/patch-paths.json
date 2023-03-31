@@ -1,0 +1,149 @@
+[
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/wood/woodtyped/planks.json"
+  },
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/wood/woodtyped/plankslab.json"
+  },
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/wood/woodtyped/plankstairs.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/stone/cobble/cobblestone.json"
+  },
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/stone/cobble/cobbleslab.json"
+  },
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/stone/cobble/cobblestonestairs.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/stone/stonebrick/stonebrick.json"
+  },
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/stone/stonebrick/stonebrickslab.json"
+  },
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/stone/stonebrick/stonebrickstairs.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/stone/polished/polishedrock.json"
+  },
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/stone/polished/polishedrockslab.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/soil/mudbrick.json"
+  },
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/soil/mudbrickslab.json"
+  },
+
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/stone/drystone.json"
+  },
+
+
+
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/clay/brick.json"
+  },
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/clay/brickslab.json"
+  },
+
+  {
+    "op": "add",
+    "path": "/walkspeedmultiplier",
+    "value": 1.2,
+    "file": "game:blocktypes/clay/brickstairs.json"
+  },
+
+
+
+  {
+    "op": "replace",
+    "path": "/walkspeedmultiplier",
+    "value": 1.4,
+    "file": "game:blocktypes/wood/path.json"
+  },
+  {
+    "op": "replace",
+    "path": "/walkspeedmultiplier",
+    "value": 1.5,
+    "file": "game:blocktypes/stone/generic/stonepath.json"
+  },
+  {
+    "op": "replace",
+    "path": "/walkspeedmultiplier",
+    "value": 1.5,
+    "file": "game:blocktypes/stone/generic/stonepathslab.json"
+  },
+  {
+    "op": "replace",
+    "path": "/walkspeedmultiplier",
+    "value": 1.5,
+    "file": "game:blocktypes/stone/generic/stonepathstairs.json"
+  }
+  
+]

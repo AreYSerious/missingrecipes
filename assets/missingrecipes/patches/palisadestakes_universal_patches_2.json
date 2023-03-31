@@ -1,0 +1,21 @@
+[
+  {
+    "op": "add",
+    "path": "/attributes",
+    "value": {
+      "sprintIntoDamage": 1,
+      "fallIntoDamageMul": 30,
+      "immuneCreatures": [
+        "locust-bronze",
+        "locust-corrupt"
+      ]
+    },
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  },
+  {
+    "op": "add",
+    "path": "/class",
+    "value": "BlockDamageOnTouch",
+    "file": "game:blocktypes/wood/palisadestakes.json"
+  }
+]
