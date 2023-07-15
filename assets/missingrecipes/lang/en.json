@@ -9,5 +9,8 @@
 	"game:block-torchholder-molybdochalkos-*": "Molybdochalkos torch holder",
 	"game:block-torchholder-silver-*": "Silver torch holder",
 	"game:block-torchholder-steel-*": "Steel torch holder",
-	"game:block-torchholder-tinbronze-*": "Tin bronze torch holder"
+	"game:block-torchholder-tinbronze-*": "Tin bronze torch holder",
+
+
+	"game:incontainer-item-saltwaterportion": "Saltwater"
 }
