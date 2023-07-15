@@ -1,0 +1,16 @@
+[
+  {
+    "op": "replace",
+    "path": "/resistance",
+    "value": 0.15,
+    "file": "game:blocktypes/bone/carcass.json",
+    "side": "Server"
+  },
+  {
+    "op": "replace",
+    "path": "/resistance",
+    "value": 0.15,
+    "file": "game:blocktypes/bone/drycarcass.json",
+    "side": "Server"
+  }
+]
