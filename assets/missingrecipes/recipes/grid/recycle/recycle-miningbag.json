@@ -1,0 +1,24 @@
+[
+    {
+        "ingredientPattern": "KB",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:miningbag"
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "output": {
+            "type": "block",
+            "code": "game:linen-normal-down",
+            "quantity": 1
+        }
+    }
+]

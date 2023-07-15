@@ -1,0 +1,24 @@
+[
+    {
+        "ingredientPattern": "KB",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:hunterbackpack"
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:hide-pelt-medium",
+            "quantity": 1
+        }
+    }
+]

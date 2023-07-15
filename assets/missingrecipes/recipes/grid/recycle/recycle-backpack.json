@@ -1,0 +1,24 @@
+[
+    {
+        "ingredientPattern": "KB",
+        "ingredients": {
+            "B": {
+                "type": "item",
+                "code": "game:backpack"
+            },
+            "K": {
+                "type": "item",
+                "code": "game:knife-*",
+                "isTool": true
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "shapeless": true,
+        "output": {
+            "type": "item",
+            "code": "game:leather-plain",
+            "quantity": 4
+        }
+    }
+]
