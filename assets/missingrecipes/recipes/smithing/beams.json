@@ -1,0 +1,67 @@
+[
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "bismuthbronze",
+                "blackbronze",
+                "blistersteel",
+                "brass",
+                "copper",
+                "iron",
+                "lead"
+            ]
+        },
+        "pattern": [
+            [
+                "####_####",
+                "_________",
+                "####_####",
+                "_________",
+                "####_####"
+            ]
+        ],
+        "name": "metal-supportbeam",
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-{metal}",
+            "quantity": 6
+        }
+    },
+    {
+        "ingredient": {
+            "type": "item",
+            "code": "game:ingot-*",
+            "name": "metal",
+            "allowedVariants": [
+                "steel",
+                "iron"
+            ]
+        },
+        "pattern": [
+            [
+                "__________",
+                "_##_##_##_",
+                "__________"
+            ],
+            [
+                "_##_##_##_",
+                "##########",
+                "_##_##_##_"
+            ],
+            [
+                "__________",
+                "_##_##_##_",
+                "__________"
+            ]
+        ],
+        "name": "metal-supportbeam",
+        "output": {
+            "type": "block",
+            "code": "game:supportchain",
+            "quantity": 12
+        }
+    }
+]

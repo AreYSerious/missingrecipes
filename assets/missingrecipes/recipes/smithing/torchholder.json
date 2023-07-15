@@ -1,38 +1,48 @@
 {
-	ingredient: { type: "item", code: "game:ingot-*", name: "metal", allowedVariants: [
-		"copper",
-		"brass",
-		"blackbronze",
-		"bismuth",
-		"tinbronze",
-		"bismuthbronze",
-		"iron",
-		"molybdochalkos",
-		"silver",
-		"gold",
-		"meteoriciron",
-		"steel"
-	  ] },
-	pattern: [[
-		"_______________",
-		"_______________",
-		"___x__xxxxx____",
-		"___x__xxxxx____",
-		"__xxxxxx_______",
-		"_______________",
-		"_______________",
-		"_______________",
-	],
-	[
-		"_______________",
-		"_______________",
-		"___x__xxxxx____",
-		"___x__xxxxx____",
-		"__xxxxxx_______",
-		"_______________",
-		"_______________",
-		"_______________",
-	]],
-	name: "Torchholder",
-	output: { type: "block", code: "game:torchholder-{metal}-empty-north"  }
+    "ingredient": {
+        "type": "item",
+        "code": "game:ingot-*",
+        "name": "metal",
+        "allowedVariants": [
+            "copper",
+            "brass",
+            "blackbronze",
+            "bismuth",
+            "tinbronze",
+            "bismuthbronze",
+            "iron",
+            "molybdochalkos",
+            "silver",
+            "gold",
+            "meteoriciron",
+            "steel"
+        ]
+    },
+    "pattern": [
+        [
+            "_______________",
+            "_______________",
+            "___x__xxxxx____",
+            "___x__xxxxx____",
+            "__xxxxxx_______",
+            "_______________",
+            "_______________",
+            "_______________"
+        ],
+        [
+            "_______________",
+            "_______________",
+            "___x__xxxxx____",
+            "___x__xxxxx____",
+            "__xxxxxx_______",
+            "_______________",
+            "_______________",
+            "_______________"
+        ]
+    ],
+    "name": "Torchholder",
+    "output": {
+        "type": "block",
+        "code": "game:torchholder-{metal}-empty-north"
+    }
 }
