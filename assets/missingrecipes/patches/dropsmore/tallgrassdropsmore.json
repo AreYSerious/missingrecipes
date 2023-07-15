@@ -1,0 +1,62 @@
+[
+	{
+        "op": "remove",
+        "path": "/dropsByType/*",
+		"file": "game:blocktypes/plant/tallgrass.json"
+    },
+	{
+        "op": "add",
+        "path": "/dropsByType/tallgrass-veryshort-*",
+        "value": [
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 1 }, "tool": "knife"  },
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 1 }, "tool": "scythe" }
+		],
+		"file": "game:blocktypes/plant/tallgrass.json"
+    },
+	{
+        "op": "add",
+        "path": "/dropsByType/tallgrass-short-*",
+        "value": [
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 1 }, "tool": "knife"  },
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 1 }, "tool": "scythe" }
+		],
+		"file": "game:blocktypes/plant/tallgrass.json"
+    },
+    {
+        "op": "add",
+        "path": "/dropsByType/tallgrass-mediumshort-*",
+        "value": [
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 2 }, "tool": "knife"  },
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 2 }, "tool": "scythe" }
+		],
+		"file": "game:blocktypes/plant/tallgrass.json"
+    },
+    {
+        "op": "add",
+        "path": "/dropsByType/tallgrass-medium-*",
+        "value": [
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 2 }, "tool": "knife"  },
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 2 }, "tool": "scythe" }
+		],
+		"file": "game:blocktypes/plant/tallgrass.json"
+    },
+    {
+        "op": "add",
+        "path": "/dropsByType/tallgrass-tall-*",
+        "value": [
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 3 }, "tool": "knife"  },
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 3 }, "tool": "scythe" }
+		],
+		"file": "game:blocktypes/plant/tallgrass.json"
+    },
+    {
+        
+        "op": "add",
+        "path": "/dropsByType/tallgrass-verytall-*",
+        "value": [
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 3 }, "tool": "knife"  },
+			{ "type": "item", "code": "drygrass", "quantity": { "avg": 3 }, "tool": "scythe" }
+		],
+		"file": "game:blocktypes/plant/tallgrass.json"
+    }
+]

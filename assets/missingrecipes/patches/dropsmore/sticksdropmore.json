@@ -1,0 +1,14 @@
+[
+	{
+		"op": "replace",
+		"path": "/drops/0/quantity/avg",
+		"value": 2,
+		"file": "game:blocktypes/wood/loosestick.json"
+	},
+	{
+		"op": "replace",
+		"path": "/drops/0/quantity/var",
+		"value": 1,
+		"file": "game:blocktypes/wood/loosestick.json"
+	}
+]

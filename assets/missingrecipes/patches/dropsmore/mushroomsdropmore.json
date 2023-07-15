@@ -1,0 +1,26 @@
+[
+	{
+		"op": "replace",
+		"path": "/drops/0/quantity/avg",
+		"value": 2,
+		"file": "game:blocktypes/plant/mushroom.json"
+	},
+	{
+		"op": "replace",
+		"path": "/drops/0/quantity/var",
+		"value": 1,
+		"file": "game:blocktypes/plant/mushroom.json"
+	},
+	{
+		"op": "replace",
+		"path": "/drops/0/quantity/avg",
+		"value": 2,
+		"file": "game:blocktypes/plant/mushroom-side.json"
+	},
+	{
+		"op": "replace",
+		"path": "/drops/0/quantity/var",
+		"value": 1,
+		"file": "game:blocktypes/plant/mushroom-side.json"
+	}
+]

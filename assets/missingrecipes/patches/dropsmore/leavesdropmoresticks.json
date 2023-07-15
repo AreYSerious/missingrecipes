@@ -1,0 +1,20 @@
+[
+  {
+    "op": "replace",
+    "path": "/drops/1/quantity/avg",
+    "value": 0.2,
+    "file": "game:blocktypes/plant/leaves/normal.json"
+  },
+  {
+    "op": "replace",
+    "path": "/drops/1/quantity/avg",
+    "value": 2,
+    "file": "game:blocktypes/plant/leaves/branchy.json"
+  },
+  {
+    "op": "replace",
+    "path": "/drops/1/quantity/var",
+    "value": 1,
+    "file": "game:blocktypes/plant/leaves/branchy.json"
+  }
+]
