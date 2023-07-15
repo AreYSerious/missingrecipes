@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/attributes/sleepEfficiencyByType/bed-wood-*",
+    "value": 0.83333333,
+    "file": "game:blocktypes/wood/bed.json"
+  }
+]

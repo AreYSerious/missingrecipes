@@ -1,0 +1,81 @@
+[
+    {
+        "code": "rottendoor1",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:waterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:door-solid-*",
+                "quantity": 1,
+                "name": "wood",
+                "allowedVariants": [
+                    "aged",
+                    "birch",
+                    "oak",
+                    "maple",
+                    "pine",
+                    "acacia",
+                    "kapok",
+                    "baldcypress",
+                    "larch",
+                    "redwood",
+                    "ebony",
+                    "walnut",
+                    "purpleheart"
+                  ]
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:door-ruined-rough1",
+            "stackSize": 1
+        }
+    },
+    {
+        "code": "rottendoor2",
+        "sealHours": 6,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:waterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:door-ruined-rough1",
+                "quantity": 1
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:door-ruined-rough2",
+            "stackSize": 1
+        }
+    },
+    {
+        "code": "rottendoor3",
+        "sealHours": 6,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:waterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:door-ruined-rough2",
+                "quantity": 1
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:door-ruined-rough3",
+            "stackSize": 1
+        }
+    }
+]

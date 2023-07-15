@@ -1,0 +1,40 @@
+[
+    {
+        "ingredientPattern": "S,D",
+        "ingredients": {
+            "S": {
+                "type": "item",
+                "code": "game:saw-*",
+                "isTool": true
+            },
+            "D": {
+                "type": "block",
+                "code": "game:door-solid-*",
+                "quantity": 1,
+                "name": "wood",
+                "allowedVariants": [
+                    "aged",
+                    "birch",
+                    "oak",
+                    "maple",
+                    "pine",
+                    "acacia",
+                    "kapok",
+                    "baldcypress",
+                    "larch",
+                    "redwood",
+                    "ebony",
+                    "walnut",
+                    "purpleheart"
+                  ]
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:door-sleek-windowed-{wood}",
+            "quantity": 1
+        }
+    }
+]

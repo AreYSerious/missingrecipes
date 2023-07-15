@@ -1,12 +1,22 @@
 [
-	{
-		ingredientPattern: "T,C",
-		ingredients: {
-			"T": { type: "block", code: "game:torch-basic-lit-up"},
-			"C": { type: "block", code: "game:claybrickchimney-*-unlit-ns", name: "type" }
-		},
-		width: 1,
-		height: 2,
-		output: { type: "block", code: "game:claybrickchimney-{type}-lit-ns" },
-	}
+    {
+        "ingredientPattern": "T,C",
+        "ingredients": {
+            "T": {
+                "type": "block",
+                "code": "game:torch-basic-lit-up"
+            },
+            "C": {
+                "type": "block",
+                "code": "game:claybrickchimney-*-unlit-ns",
+                "name": "type"
+            }
+        },
+        "width": 1,
+        "height": 2,
+        "output": {
+            "type": "block",
+            "code": "game:claybrickchimney-{type}-lit-ns"
+        }
+    }
 ]

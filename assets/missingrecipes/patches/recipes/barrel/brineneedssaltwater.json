@@ -1,0 +1,8 @@
+[
+  {
+    "op": "replace",
+    "path": "/ingredients/0/code",
+    "value": "saltwaterportion",
+    "file": "game:recipes/barrel/brine.json"
+  }
+]

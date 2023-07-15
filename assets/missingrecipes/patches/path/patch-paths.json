@@ -45,7 +45,7 @@
     "op": "add",
     "path": "/walkspeedmultiplier",
     "value": 1.2,
-    "file": "game:blocktypes/stone/stonebrick/stonebrick.json"
+    "file": "game:blocktypes/stone/stonebrick/stonebricks.json"
   },
   {
     "op": "add",

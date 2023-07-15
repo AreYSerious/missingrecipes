@@ -1,10 +1,19 @@
 {
-	ingredientPattern: " R 	W_W	WWW",
-	ingredients: {
-		"R": { type: "item", code: "game:rope" },
-		"W": { type: "item", code: "game:plank-*" }
-	},
-	width: 3,
-	height: 3,
-	output: { type: "block", code: "game:woodbucket"  }
+    "ingredientPattern": "_R_,W_W,WWW",
+    "ingredients": {
+        "R": {
+            "type": "item",
+            "code": "game:rope"
+        },
+        "W": {
+            "type": "item",
+            "code": "game:plank-*"
+        }
+    },
+    "width": 3,
+    "height": 3,
+    "output": {
+        "type": "block",
+        "code": "game:woodbucket"
+    }
 }

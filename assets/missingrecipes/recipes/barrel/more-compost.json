@@ -1,50 +1,98 @@
 [
-	{
-		code: "fern1",
-		sealHours: 480,
-		ingredients: [
-			{ type: "block", code: "game:ferntree-normal-foliage", quantity: 8 }
-		],
-		output: { type: "item", code: "game:compost", stackSize: 8 }
-	},
-	{
-		code: "fern2",
-		sealHours: 480,
-		ingredients: [
-			{ type: "block", code: "game:fern-deerfern", quantity: 8 }
-		],
-		output: { type: "item", code: "game:compost", stackSize: 8 }
-	},
-	{
-		code: "fern3",
-		sealHours: 480,
-		ingredients: [
-			{ type: "block", code: "game:fern-cinnamonfern", quantity: 8 }
-		],
-		output: { type: "item", code: "game:compost", stackSize: 8 }
-	},
-	{
-		code: "fern4",
-		sealHours: 480,
-		ingredients: [
-			{ type: "block", code: "game:fern-eaglefern", quantity: 8 }
-		],
-		output: { type: "item", code: "game:compost", stackSize: 8 }
-	},
-	{
-		code: "fern5",
-		sealHours: 480,
-		ingredients: [
-			{ type: "block", code: "game:fern-hartstongue", quantity: 8 }
-		],
-		output: { type: "item", code: "game:compost", stackSize: 8 }
-	},
-	{
-		code: "fern6",
-		sealHours: 480,
-		ingredients: [
-			{ type: "block", code: "game:tallfern", quantity: 8 }
-		],
-		output: { type: "item", code: "game:compost", stackSize: 8 }
-	},
+    {
+        "code": "fern1",
+        "sealHours": 480,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:ferntree-normal-foliage",
+                "quantity": 8
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:compost",
+            "stackSize": 8
+        }
+    },
+    {
+        "code": "fern2",
+        "sealHours": 480,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:fern-deerfern",
+                "quantity": 8
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:compost",
+            "stackSize": 8
+        }
+    },
+    {
+        "code": "fern3",
+        "sealHours": 480,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:fern-cinnamonfern",
+                "quantity": 8
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:compost",
+            "stackSize": 8
+        }
+    },
+    {
+        "code": "fern4",
+        "sealHours": 480,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:fern-eaglefern",
+                "quantity": 8
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:compost",
+            "stackSize": 8
+        }
+    },
+    {
+        "code": "fern5",
+        "sealHours": 480,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:fern-hartstongue",
+                "quantity": 8
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:compost",
+            "stackSize": 8
+        }
+    },
+    {
+        "code": "fern6",
+        "sealHours": 480,
+        "ingredients": [
+            {
+                "type": "block",
+                "code": "game:tallfern",
+                "quantity": 8
+            }
+        ],
+        "output": {
+            "type": "item",
+            "code": "game:compost",
+            "stackSize": 8
+        }
+    }
 ]

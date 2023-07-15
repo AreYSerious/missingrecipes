@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/0/minTemp",
+    "value": -30,
+    "file": "game:worldgen/blockpatches/other.json"
+  },
+  {
+    "op": "replace",
+    "path": "/1/minTemp",
+    "value": -30,
+    "file": "game:worldgen/blockpatches/other.json"
+  }
+]

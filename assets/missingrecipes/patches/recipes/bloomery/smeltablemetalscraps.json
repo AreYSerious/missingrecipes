@@ -1,0 +1,27 @@
+[
+  {
+    "op": "add",
+    "path": "/combustiblePropsByType",
+    "value": {
+      "*-scraps": {
+        "meltingPoint": 1154,
+        "meltingDuration": 30,
+        "smeltedRatio": 2,
+        "smeltedStack": {
+          "type": "item",
+          "code": "game:ingot-molybdochalkos"
+        }
+      },
+      "*-parts": {
+        "meltingPoint": 1154,
+        "meltingDuration": 30,
+        "smeltedRatio": 4,
+        "smeltedStack": {
+          "type": "item",
+          "code": "game:ingot-cupronickel"
+        }
+      }
+    },
+    "file": "game:blocktypes/metal/metalpartsandscraps.json"
+  }
+]

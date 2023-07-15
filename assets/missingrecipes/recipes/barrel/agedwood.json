@@ -1,0 +1,35 @@
+[
+  {
+    "code": "agedwood",
+    "sealHours": 48,
+    "ingredients": [
+      {
+        "type": "item",
+        "code": "game:vinegarportion",
+        "litres": 1,
+        "consumeLitres": 1
+      },
+      {
+        "type": "block",
+        "code": "game:log-placed-*-ud",
+        "quantity": 1,
+        "name": "log",
+        "allowedVariants": [
+          "oak",
+          "maple",
+          "pine",
+          "acacia",
+          "kapok",
+          "baldcypress",
+          "ebony",
+          "purpleheart"
+        ]
+      }
+    ],
+    "output": {
+      "type": "block",
+      "code": "game:log-placed-aged-ud",
+      "stackSize": 1
+    }
+  }
+]

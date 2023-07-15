@@ -8,11 +8,13 @@
       "allowedVariants": [
         "andesite",
         "chalk",
+        "limestone",
         "claystone",
         "granite",
         "sandstone",
         "shale",
-        "basalt"
+        "basalt",
+        "slate"
       ],
       "name": "type",
       "quantity": 4 

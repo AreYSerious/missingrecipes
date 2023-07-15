@@ -1,0 +1,44 @@
+[
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:supportbeam-tarnishedmetal-iron",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-rusty-iron",
+            "stackSize": 6
+        }
+    },
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:supportbeam-tarnishedmetal-copper",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-rust",
+            "stackSize": 6
+        }
+    }
+]

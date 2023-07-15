@@ -1,0 +1,81 @@
+[
+    {
+        "code": "rottendoor1",
+        "sealHours": 12,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:waterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:door-sleek-windowed-*",
+                "quantity": 1,
+                "name": "wood",
+                "allowedVariants": [
+                    "aged",
+                    "birch",
+                    "oak",
+                    "maple",
+                    "pine",
+                    "acacia",
+                    "kapok",
+                    "baldcypress",
+                    "larch",
+                    "redwood",
+                    "ebony",
+                    "walnut",
+                    "purpleheart"
+                  ]
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:door-ruined-windowed1",
+            "stackSize": 1
+        }
+    },
+    {
+        "code": "rottendoor2",
+        "sealHours": 6,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:waterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:door-ruined-windowed1",
+                "quantity": 1
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:door-ruined-windowed2",
+            "stackSize": 1
+        }
+    },
+    {
+        "code": "rottendoor3",
+        "sealHours": 6,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:waterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:door-ruined-windowed2",
+                "quantity": 1
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:door-ruined-windowed3",
+            "stackSize": 1
+        }
+    }
+]
