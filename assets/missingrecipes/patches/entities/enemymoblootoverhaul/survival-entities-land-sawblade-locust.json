@@ -1,0 +1,43 @@
+[
+  {
+    "op": "replace",
+    "path": "/dropsByType/locust-corrupt-sawblade/0/quantity/avg",
+    "value": 3,
+    "file": "game:entities/land/locust.json"
+  },
+  {
+    "op": "replace",
+    "path": "/dropsByType/locust-corrupt-sawblade/0/quantity/var",
+    "value": 2,
+    "file": "game:entities/land/locust.json"
+  },
+  
+  
+  
+  {
+    "op": "add",
+    "path": "/dropsByType/locust-corrupt-sawblade/-",
+    "value": {
+      "type": "item",
+      "code": "plank-aged",
+      "quantity": {
+        "avg": 12,
+        "var": 6
+      }
+    },
+    "file": "game:entities/land/locust.json"
+  },
+  {
+    "op": "add",
+    "path": "/dropsByType/locust-corrupt-sawblade/-",
+    "value": {
+      "type": "item",
+      "code": "agedfirewood",
+      "quantity": {
+        "avg": 8,
+        "var": 4
+      }
+    },
+    "file": "game:entities/land/locust.json"
+  }
+]

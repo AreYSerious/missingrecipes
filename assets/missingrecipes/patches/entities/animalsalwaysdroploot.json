@@ -1,0 +1,141 @@
+[
+    {
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/1/quantity/avg",
+        "value": 1,
+        "file": "game:entities/land/hare-male.json"
+    },
+    {
+        "op": "replace",
+        "path": "/server/behaviors/6/drops/1/quantity/avg",
+        "value": 1,
+        "file": "game:entities/land/hare-female.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/6/drops/-",
+        "value": {
+            "type": "item",
+            "code": "game:redmeat-raw",
+            "quantity": {
+                "avg": 1,
+                "var": 0
+            }
+        },
+        "file": "game:entities/land/hare-baby.json"
+    },
+
+
+
+
+
+    {
+        "op": "add",
+        "path": "/server/behaviors/6/drops/-",
+        "value": {
+            "type": "item",
+            "code": "game:redmeat-raw",
+            "quantity": {
+                "avg": 1,
+                "var": 0
+            }
+        },
+        "file": "game:entities/land/fox-pup.json"
+    },
+
+
+
+
+
+    {
+        "op": "add",
+        "path": "/server/behaviors/6/drops/-",
+        "value": {
+            "type": "item",
+            "code": "game:poultry-raw"
+        },
+        "file": "game:entities/land/chicken-baby.json"
+    },
+    {
+        "op": "add",
+        "path": "/server/behaviors/6/drops/-",
+        "value": {
+            "type": "item",
+            "code": "game:feather",
+            "quantity": {
+                "avg": 4,
+                "var": 2
+            }
+        },
+        "file": "game:entities/land/chicken-baby.json"
+    },
+    {
+      "op": "replace",
+      "path": "/server/behaviors/5/drops/0/quantityByType/*/avg",
+      "value": 4,
+      "file": "game:entities/land/chicken-hen.json"
+    },
+    {
+      "op": "replace",
+      "path": "/server/behaviors/5/drops/0/quantityByType/*/var",
+      "value": 1,
+      "file": "game:entities/land/chicken-hen.json"
+    },
+    {
+      "op": "replace",
+      "path": "/server/behaviors/5/drops/0/quantityByType/*-henpoult/avg",
+      "value": 2.5,
+      "file": "game:entities/land/chicken-hen.json"
+    },
+    {
+      "op": "replace",
+      "path": "/server/behaviors/5/drops/0/quantityByType/*-henpoult/var",
+      "value": 1,
+      "file": "game:entities/land/chicken-hen.json"
+    },
+    {
+      "op": "replace",
+      "path": "/server/behaviors/6/drops/0/quantityByType/*/avg",
+      "value": 1.5,
+      "file": "game:entities/land/chicken-rooster.json"
+    },
+    {
+      "op": "replace",
+      "path": "/server/behaviors/6/drops/0/quantityByType/*/var",
+      "value": 0.5,
+      "file": "game:entities/land/chicken-rooster.json"
+    },
+    {
+      "op": "replace",
+      "path": "/server/behaviors/6/drops/0/quantityByType/*-roosterpoult/avg",
+      "value": 2,
+      "file": "game:entities/land/chicken-rooster.json"
+    },
+    {
+      "op": "replace",
+      "path": "/server/behaviors/6/drops/0/quantityByType/*-roosterpoult/var",
+      "value": 1,
+      "file": "game:entities/land/chicken-rooster.json"
+    },
+
+
+
+
+
+
+
+
+
+    {
+      "op": "replace",
+      "path": "/server/behaviors/6/drops/0/quantity/avg",
+      "value": 1.5,
+      "file": "game:entities/water/salmon.json"
+    },
+    {
+      "op": "replace",
+      "path": "/server/behaviors/6/drops/0/quantity/var",
+      "value": 0.5,
+      "file": "game:entities/water/salmon.json"
+    }
+]

@@ -1,0 +1,706 @@
+[
+  {
+    "op": "add",
+    "path": "/idleSoundChanceByType",
+    "value": {
+      "*-normal": 0.025,
+      "*-deep": 0.05,
+      "*-tainted": 0.1,
+      "*-corrupt": 0.1,
+      "*-nightmare": 0.15
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/idleSoundRange",
+    "value": 20,
+    "file": "game:entities/land/drifter.json"
+  },
+
+
+
+
+  {
+    "op": "replace",
+    "path": "/attributes/onDeathStabilityRecoveryByType/drifter-corrupt",
+    "value": 0.075,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/onDeathStabilityRecoveryByType/drifter-deep",
+    "value": 0.045,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/onDeathStabilityRecoveryByType/drifter-double-headed",
+    "value": 0.25,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/onDeathStabilityRecoveryByType/drifter-nightmare",
+    "value": 0.10,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/onDeathStabilityRecoveryByType/drifter-normal",
+    "value": 0.03,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/attributes/onDeathStabilityRecoveryByType/drifter-tainted",
+    "value": 0.06,
+    "file": "game:entities/land/drifter.json"
+  },
+
+
+
+  {
+    "__comment": "Harvestable speed in seconds: (default: 2)",
+    "op": "replace",
+    "path": "/client/behaviors/4/duration",
+    "value": 0.75,
+    "file": "game:entities/land/drifter.json"
+  },
+
+
+
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/currenthealthByType/*-corrupt",
+    "value": 32,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/currenthealthByType/*-deep",
+    "value": 18,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/currenthealthByType/*-double-headed",
+    "value": 65,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/currenthealthByType/*-nightmare",
+    "value": 42,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/currenthealthByType/*-normal",
+    "value": 14,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/currenthealthByType/*-tainted",
+    "value": 24,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/maxhealthByType/*-deep",
+    "value": 18,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/maxhealthByType/*-double-headed",
+    "value": 65,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/maxhealthByType/*-nightmare",
+    "value": 42,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/maxhealthByType/*-corrupt",
+    "value": 32,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/maxhealthByType/*-normal",
+    "value": 14,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/2/maxhealthByType/*-tainted",
+    "value": 24,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/states/0/chanceByType/*-deep",
+    "value": 0.05,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/states/0/chanceByType/*-double-headed",
+    "value": 0,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/states/0/chanceByType/*-normal",
+    "value": 0.1,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/7/states/0/chanceByType/*-tainted",
+    "value": 0.02,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/8/aitasks/2",
+    "value": {
+      "code": "meleeattack",
+      "entityCodes": [
+        "player"
+      ],
+      "priority": 2,
+      "damageByType": {
+        "*-normal": 2.5,
+        "*-deep": 5,
+        "*-tainted": 10,
+        "*-corrupt": 15,
+        "*-nightmare": 25,
+        "*-double-headed": 30
+      },
+      "damageTierByType": {
+        "*-normal": 0,
+        "*-deep": 1,
+        "*-tainted": 2,
+        "*-corrupt": 3,
+        "*-nightmare": 4,
+        "*-double-headed": 4
+      },
+      "mincooldownByType": {
+        "*-normal": 1400,
+        "*-deep": 1100,
+        "*-tainted": 900,
+        "*-corrupt": 600,
+        "*-nightmare": 600,
+        "*-double-headed": 900
+      },
+      "maxcooldownByType": {
+        "*-normal": 1600,
+        "*-deep": 1300,
+        "*-tainted": 1100,
+        "*-corrupt": 900,
+        "*-nightmare": 900,
+        "*-double-headed": 1100
+      },
+      "damagePlayerAtMsByType": {
+        "*-normal": 500,
+        "*-deep": 500,
+        "*-tainted": 500,
+        "*-corrupt": 500,
+        "*-nightmare": 500,
+        "*-double-headed": 500
+      },
+      "attackDurationMsByType": {
+        "*-normal": 1100,
+        "*-deep": 1100,
+        "*-tainted": 1100,
+        "*-corrupt": 1100,
+        "*-nightmare": 1100,
+        "*-double-headed": 1100
+      },
+      "animation": "standattack",
+      "animationSpeedByType": {
+        "*-normal": 1.3,
+        "*-deep": 1.3,
+        "*-tainted": 1.3,
+        "*-corrupt": 1.3,
+        "*-nightmare": 1.3,
+        "*-double-headed": 1.3
+      },
+      "damageTypeByType": {
+        "*-corrupt": "SlashingAttack",
+        "*-nightmare": "SlashingAttack",
+        "*-double-headed": "SlashingAttack"
+      },
+      "sound": "creature/drifter-hit",
+      "soundStartMs": 500
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/3",
+    "value": {
+      "code": "throwatentity",
+      "entityCodes": [
+        "player"
+      ],
+      "priority": 1,
+      "priorityForCancel": 1.2,
+      "mincooldownByType": {
+        "*-normal": 3000,
+        "*-deep": 3000,
+        "*-tainted": 4000,
+        "*-corrupt": 5000,
+        "*-nightmare": 7000,
+        "*-double-headed": 8000
+      },
+      "maxcooldownByType": {
+        "*-normal": 13000,
+        "*-deep": 13000,
+        "*-tainted": 15000,
+        "*-corrupt": 16000,
+        "*-nightmare": 17000,
+        "*-double-headed": 18000
+      },
+      "durationMs": 1200,
+      "releaseAtMs": 600,
+      "seekingRange": 12,
+      "animationSpeed": 1.4,
+      "animation": "standthrowleft"
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/4",
+    "value": {
+      "code": "seekentity",
+      "entityCodes": [
+        "player"
+      ],
+      "priority": 1.5,
+      "mincooldown": 400,
+      "maxcooldown": 800,
+      "movespeedByType": {
+        "*-normal": 0.014,
+        "*-deep": 0.016,
+        "*-tainted": 0.018,
+        "*-corrupt": 0.02,
+        "*-nightmare": 0.02,
+        "*-double-headed": 0.02
+      },
+      "seekingRangeByType": {
+        "*-normal": 12,
+        "*-deep": 14,
+        "*-tainted": 16,
+        "*-corrupt": 18,
+        "*-nightmare": 20,
+        "*-double-headed": 20
+      },
+      "animation": "standrun",
+      "animationSpeedByType": {
+        "*-normal": 1.1,
+        "*-deep": 1.3,
+        "*-tainted": 1.4,
+        "*-corrupt": 1.5,
+        "*-nightmare": 1.5
+      },
+      "sound": "creature/drifter-aggro"
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/5",
+    "value": {
+      "code": "idle",
+      "priority": 1.2,
+      "priorityForCancel": 1.35,
+      "cancelOnHurt": true,
+      "minduration": 4000,
+      "maxduration": 6000,
+      "chance": 0,
+      "initialMinCoolDown": 2000,
+      "initialMaxCoolDown": 150000,
+      "mincooldown": 300000,
+      "maxcooldown": 10000000,
+      "animation": "standdespair",
+      "animationSpeed": 1.25
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/6",
+    "value": {
+      "code": "idle",
+      "priority": 1.2,
+      "priorityForCancel": 2.1,
+      "cancelOnHurt": true,
+      "minduration": 4000,
+      "maxduration": 6000,
+      "chance": 0.001,
+      "initialMinCoolDown": 2000,
+      "initialMaxCoolDown": 150000,
+      "mincooldown": 300000,
+      "maxcooldown": 10000000,
+      "animation": "standcry",
+      "animationSpeed": 1
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/7",
+    "value": {
+      "code": "wander",
+      "priorityByType": {
+        "*-normal": 0.5,
+        "*-deep": 0.75,
+        "*-tainted": 1.25,
+        "*-corrupt": 1.3,
+        "*-nightmare": 1.4,
+        "*-double-headed": 0
+      },
+      "movespeedByType": {
+        "*-normal": 0.014,
+        "*-deep": 0.016,
+        "*-tainted": 0.018,
+        "*-corrupt": 0.02,
+        "*-nightmare": 0.02,
+        "*-double-headed": 0.015
+      },
+      "animationSpeed": 1.2,
+      "animation": "standrun"
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/8",
+    "value": {
+      "code": "wander",
+      "cancelOnHurt": true,
+      "priority": 0.55,
+      "priorityForCancel": 1.1,
+      "movespeed": 0.01,
+      "animationSpeed": 1.2,
+      "animation": "standwalk",
+      "preferredLightLevel": 15
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/9",
+    "value": {
+      "code": "wander",
+      "cancelOnHurt": true,
+      "priority": 0.55,
+      "priorityForCancel": 1.1,
+      "movespeed": 0.008,
+      "animationSpeed": 1.1,
+      "animation": "standlowwalk",
+      "preferredLightLevel": 15
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/10",
+    "value": {
+      "code": "getoutofwater",
+      "priority": 1.4,
+      "movespeed": 0.0175,
+      "animation": "standwalk",
+      "animationSpeed": 1.55
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/8/aitasks/11",
+    "value": {
+      "code": "lookaround",
+      "cancelOnHurt": true,
+      "priority": 0.5
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-corrupt",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": {
+          "avg": 0.065,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 0.5,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": {
+          "avg": 1.5,
+          "var": 0.5
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-deep",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": {
+          "avg": 0.035,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 0.08,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": {
+          "avg": 2,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": {
+          "avg": 0.12,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "remove",
+    "path": "/server/behaviors/9/dropsByType/*-double-headed/1",
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-double-headed/1",
+    "value": {
+      "type": "item",
+      "code": "game:gear-rusty",
+      "dropModbyStat": "rustyGearDropRate",
+      "quantity": {
+        "avg": 7.5,
+        "var": 2.5
+      }
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "add",
+    "path": "/server/behaviors/9/dropsByType/*-double-headed/2",
+    "value": {
+      "type": "item",
+      "code": "game:flaxtwine",
+      "quantity": {
+        "avg": 5,
+        "var": 1
+      }
+    },
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-nightmare",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": {
+          "avg": 0.08,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 0.5,
+          "var": 1.5
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": {
+          "avg": 1,
+          "var": 2
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-normal",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": {
+          "avg": 0.027,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": {
+          "avg": 1,
+          "var": 1
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": {
+          "avg": 0.08,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 0.02,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/dropsByType/*-tainted",
+    "value": [
+      {
+        "type": "item",
+        "code": "game:gear-temporal",
+        "quantity": {
+          "avg": 0.05,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:gear-rusty",
+        "dropModbyStat": "rustyGearDropRate",
+        "quantity": {
+          "avg": 0.2,
+          "var": 0
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxfibers",
+        "quantity": {
+          "avg": 2.5,
+          "var": 1.5
+        }
+      },
+      {
+        "type": "item",
+        "code": "game:flaxtwine",
+        "quantity": {
+          "avg": 0.2,
+          "var": 0
+        }
+      }
+    ],
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/9/duration",
+    "value": 1,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/chance",
+    "value": 0.08,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/groupSizeByType/*-normal/var",
+    "value": 2,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxQuantityByType/*-corrupt",
+    "value": 4,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxQuantityByType/*-deep",
+    "value": 6,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxQuantityByType/*-nightmare",
+    "value": 3,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxQuantityByType/*-normal",
+    "value": 8,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/maxQuantityByType/*-tainted",
+    "value": 5,
+    "file": "game:entities/land/drifter.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/spawnconditions/runtime/minYByType/*-deep",
+    "value": 0.25,
+    "file": "game:entities/land/drifter.json"
+  }
+]
