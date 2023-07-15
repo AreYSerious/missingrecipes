@@ -1,0 +1,14 @@
+[
+  {
+    "op": "replace",
+    "path": "/server/behaviors/1/minSeconds",
+    "value": 1800,
+    "file": "game:entities/spear.json"
+  },
+  {
+    "op": "replace",
+    "path": "/server/behaviors/1/minSeconds",
+    "value": 1800,
+    "file": "game:entities/arrow.json"
+  }
+]
