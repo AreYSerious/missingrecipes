@@ -51,3 +51,32 @@
     - wooden bed can be slept longer than aged beds
     - copper reeds can spawn in northern regions
   - recipes
+    - barrel
+      - new dry and wet gravel can be made in a barrel
+      - rottendoor from water and doors
+      - agedwood from vinegar and wood
+      - ferns to compost
+      - rustybeams from saltwater
+      - salt from water and sand
+      - saltwater from water and salt
+    - grid
+      - buildingblocks
+        - cobbleskull
+      - all the new gravel can be made
+      - pallisade
+      - plaster
+      - recycle
+        - backpacks into their materials
+      - agedwoodenbed craftable
+      - smoking chimneys craftable
+      - sleek door craftable
+      - temporal gears to normal gears conversion
+      - bucket with rope not twine
+      - shingleblocks
+      - torchrelight
+    - smithing
+      - beams
+      - chandelier
+      - ironfence
+      - ironfencetop
+      - torchholders
