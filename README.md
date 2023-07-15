@@ -1,7 +1,53 @@
 ## Vanilla+ (missingrecipes)
 
-### Game folder
+- Game folder
+  - Adds textures for torchholders in all metal variants
 
-- Adds textures for torchholders in all metal variants
-
-### Modid folder
+- Modid folder
+  - lang
+    - Names for torchholders and saltwaterportion in a barrel
+  - patches
+    - drops
+      - ferntree drops itself
+      - resin in logs will drop if you destroy the block (1-2 resin)
+      - seaweed drops itself
+    - dropsmore
+      - leaves drop more sticks now
+      - mushrooms drop more mushrooms (WIP want to make it so its individual for each mushroom)
+      - loose sticks drop more
+      - tallgrass drop more
+    - enities
+      - locust and drifter have better loot
+      - animals drop at least 1 meat
+    - fuel
+      - boards as fuel for clayoven
+    - handbook-exclude
+      - makes ironfence and litchimney visible in handbook
+    - pallisades
+      - pallisades now deal contact dmg
+      - pallisadesfix rotation
+    - panning
+      - get fireclay via panning
+    - path
+      - adds walkspeed to quite some blocks (wood, stone, more...)
+    - pitkiln
+      - instead of sticks you can use boards now
+    - placeable
+      - more stuff to place on shelfs (pie, pots)
+      - firestarter and bugnet
+    - recipes
+      - barrel
+        - brine needs saltwater for crafting
+      - bloomery
+        - metal parts and scraps can be smelted in a bloomery
+      - grid
+        - more highsoil output
+        - more plaster output
+        - woodenpath from all the board variants
+    - torchholder
+      - variants and recipe fixes
+    - arrows stay longer on the ground
+    - carcass can be destroyed faster
+    - wooden bed can be slept longer than aged beds
+    - copper reeds can spawn in northern regions
+  - recipes
