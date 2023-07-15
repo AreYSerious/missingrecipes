@@ -1,0 +1,15 @@
+[
+    {
+        "file": "game:blocktypes/wood/woodtyped/log-withresin.json",
+        "op": "add",
+        "path": "/drops/-",
+        "value": {
+            "type": "item",
+            "code": "game:resin",
+            "quantity": {
+                "avg": 1.5,
+                "var": 0.75
+            }
+        }
+    }
+]
