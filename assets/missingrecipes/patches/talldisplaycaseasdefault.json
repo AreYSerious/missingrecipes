@@ -1,0 +1,8 @@
+[
+  {
+    "op": "add",
+    "path": "/output/code",
+    "value": "game:talldisplaycase-generic",
+    "file": "game:recipes/grid/displaycase.json"
+  }
+]

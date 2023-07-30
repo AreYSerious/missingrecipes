@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "G,P",
+		ingredients: {
+			"G": { type: "block", code: "game:glassslab-plain-down-free" },
+			"P": { type: "item", code: "game:plank-*", quantity: 2 },
+		},
+		width: 1,
+		height: 2,
+		output: { type: "block", code: "game:displaycase-generic"}
+	}
+]
