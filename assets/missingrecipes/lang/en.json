@@ -12,5 +12,58 @@
 	"game:block-torchholder-tinbronze-*": "Tin bronze torch holder",
 
 
-	"game:incontainer-item-saltwaterportion": "Saltwater"
+	"game:incontainer-item-saltwaterportion": "Saltwater",
+
+
+	"game:block-supportchain": "Rusted support chain",
+
+	"missingrecipes:block-supportchain-bismuth": "Bismuth support chain",
+	"missingrecipes:block-supportchain-bismuthbronze": "Bismuthbronze support chain",
+	"missingrecipes:block-supportchain-blackbronze": "Blackbronze support chain",
+	"missingrecipes:block-supportchain-brass": "Brass support chain",
+	"missingrecipes:block-supportchain-chromium": "Chromium support chain",
+	"missingrecipes:block-supportchain-copper": "Copper support chain",
+	"missingrecipes:block-supportchain-cupronickel": "Cupronickel support chain",
+	"missingrecipes:block-supportchain-electrum": "Electrum support chain",
+	"missingrecipes:block-supportchain-gold": "Gold support chain",
+	"missingrecipes:block-supportchain-iron": "Iron support chain",
+	"missingrecipes:block-supportchain-meteoriciron": "Meteoriciron support chain",
+	"missingrecipes:block-supportchain-lead": "Lead support chain",
+	"missingrecipes:block-supportchain-molybdochalkos": "Molybdochalkos support chain",
+	"missingrecipes:block-supportchain-platinum": "Platinum support chain",
+	"missingrecipes:block-supportchain-nickel": "Nickel support chain",
+	"missingrecipes:block-supportchain-silver": "Silver support chain",
+	"missingrecipes:block-supportchain-stainlesssteel": "Stainlesssteel support chain",
+	"missingrecipes:block-supportchain-steel": "Steel support chain",
+	"missingrecipes:block-supportchain-tin": "Tin support chain",
+	"missingrecipes:block-supportchain-tinbronze": "Tinbronze support chain",
+	"missingrecipes:block-supportchain-titanium": "Titanium support chain",
+	"missingrecipes:block-supportchain-uranium": "Uranium support chain",
+	"missingrecipes:block-supportchain-zinc": "Zinc support chain",
+
+
+	"missingrecipes:block-supportbeam-bismuth": "Bismuth support beam",
+	"missingrecipes:block-supportbeam-bismuthbronze": "Bismuthbronze support beam",
+	"missingrecipes:block-supportbeam-blackbronze": "Blackbronze support beam",
+	"missingrecipes:block-supportbeam-brass": "Brass support beam",
+	"missingrecipes:block-supportbeam-chromium": "Chromium support beam",
+	"missingrecipes:block-supportbeam-copper": "Copper support beam",
+	"missingrecipes:block-supportbeam-cupronickel": "Cupronickel support beam",
+	"missingrecipes:block-supportbeam-electrum": "Electrum support beam",
+	"missingrecipes:block-supportbeam-gold": "Gold support beam",
+	"missingrecipes:block-supportbeam-iron": "Iron support beam",
+	"missingrecipes:block-supportbeam-meteoriciron": "Meteoriciron support beam",
+	"missingrecipes:block-supportbeam-lead": "Lead support beam",
+	"missingrecipes:block-supportbeam-molybdochalkos": "Molybdochalkos support beam",
+	"missingrecipes:block-supportbeam-platinum": "Platinum support beam",
+	"missingrecipes:block-supportbeam-nickel": "Nickel support beam",
+	"missingrecipes:block-supportbeam-silver": "Silver support beam",
+	"missingrecipes:block-supportbeam-stainlesssteel": "Stainlesssteel support beam",
+	"missingrecipes:block-supportbeam-steel": "Steel support beam",
+	"missingrecipes:block-supportbeam-tin": "Tin support beam",
+	"missingrecipes:block-supportbeam-tinbronze": "Tinbronze support beam",
+	"missingrecipes:block-supportbeam-titanium": "Titanium support beam",
+	"missingrecipes:block-supportbeam-uranium": "Uranium support beam",
+	"missingrecipes:block-supportbeam-zinc": "Zinc support beam"
+
 }

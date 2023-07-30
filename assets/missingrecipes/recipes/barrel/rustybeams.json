@@ -10,13 +10,13 @@
             },
             {
                 "type": "block",
-                "code": "game:supportbeam-tarnishedmetal-iron",
+                "code": "missingrecipes:supportbeam-bismuthbronze",
                 "quantity": 6
             }
         ],
         "output": {
             "type": "block",
-            "code": "game:supportbeam-tarnishedmetal-rusty-iron",
+            "code": "game:supportbeam-tarnishedmetal-bismuthbronze",
             "stackSize": 6
         }
     },
@@ -31,13 +31,216 @@
             },
             {
                 "type": "block",
-                "code": "game:supportbeam-tarnishedmetal-copper",
+                "code": "missingrecipes:supportbeam-steel",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-blistersteel",
+            "stackSize": 6
+        }
+    },
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "missingrecipes:supportbeam-blackbronze",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-blackbronze",
+            "stackSize": 6
+        }
+    },
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "missingrecipes:supportbeam-brass",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-brass",
+            "stackSize": 6
+        }
+    },
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "missingrecipes:supportbeam-copper",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-copper",
+            "stackSize": 6
+        }
+    },
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "missingrecipes:supportbeam-lead",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-lead",
+            "stackSize": 6
+        }
+    },
+
+
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "missingrecipes:supportbeam-iron",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-iron",
+            "stackSize": 6
+        }
+    },
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:supportbeam-tarnishedmetal-iron",
                 "quantity": 6
             }
         ],
         "output": {
             "type": "block",
             "code": "game:supportbeam-tarnishedmetal-rust",
+            "stackSize": 6
+        }
+    },
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "game:supportbeam-tarnishedmetal-rust",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportbeam-tarnishedmetal-rusty-iron",
+            "stackSize": 6
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "code": "rustybeams",
+        "sealHours": 48,
+        "ingredients": [
+            {
+                "type": "item",
+                "code": "game:saltwaterportion",
+                "litres": 10
+            },
+            {
+                "type": "block",
+                "code": "missingrecipes:supportchain-iron",
+                "quantity": 6
+            }
+        ],
+        "output": {
+            "type": "block",
+            "code": "game:supportchain",
             "stackSize": 6
         }
     }

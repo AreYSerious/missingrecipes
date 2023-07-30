@@ -1,0 +1,93 @@
+{
+    "code": "supportbeam",
+    "class": "BlockSupportBeam",
+    "entityClass": "Generic",
+    "entityBehaviors": [
+        {
+            "name": "SupportBeam"
+        }
+    ],
+    "variantgroups": [
+        {
+            "code": "metal",
+            "states": [
+                "bismuth",
+                "bismuthbronze",
+                "blackbronze",
+                "brass",
+                "chromium",
+                "cupronickel",
+                "electrum",
+                "gold",
+                "meteoriciron",
+                "molybdochalkos",
+                "platinum",
+                "nickel",
+                "silver",
+                "stainlesssteel",
+                "steel",
+                "tinbronze",
+                "titanium",
+                "uranium",
+                "zinc",
+                "copper",
+                "iron",
+                "lead"
+            ]
+        }
+    ],
+    "creativeinventory": {
+        "general": [
+            "*"
+        ],
+        "construction": [
+            "*"
+        ]
+    },
+    "shape": {
+        "base": "game:block/metal/supportbeam"
+    },
+    "blockmaterial": "Metal",
+    "drawtype": "json",
+    "textures": {
+        "material": {
+            "baseByType": {
+                "*": "game:block/metal/ingot/{metal}"
+            }
+        }
+    },
+    "faceCullMode": "NeverCull",
+    "sideOpaque": {
+        "all": false
+    },
+    "emitSideAo": {
+        "all": false
+    },
+    "rainPermeable": true,
+    "lightAbsorption": 0,
+    "resistance": 3.5,
+    "sounds": {
+		"place": "game:block/anvil",
+		"break": "game:block/anvil",
+		"hit": "game:block/anvil",
+		"walk": "game:walk/stone1"
+	},
+    "maxStackSize": 32,
+    "materialDensity": 1200,
+    "heldTpIdleAnimation": "holdbothhandslarge",
+    "heldTpUseAnimation": "twohandplaceblock",
+    "tpHandTransform": {
+        "translation": {
+            "x": -1.23,
+            "y": -0.91,
+            "z": -0.8
+        },
+        "rotation": {
+            "x": -2,
+            "y": 25,
+            "z": -78
+        },
+        "scale": 0.4
+    },
+    "drops": []
+}

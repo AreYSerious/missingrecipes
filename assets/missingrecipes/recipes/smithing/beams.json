@@ -5,10 +5,25 @@
             "code": "game:ingot-*",
             "name": "metal",
             "allowedVariants": [
+                "bismuth",
                 "bismuthbronze",
                 "blackbronze",
-                "blistersteel",
                 "brass",
+                "chromium",
+                "cupronickel",
+                "electrum",
+                "gold",
+                "meteoriciron",
+                "molybdochalkos",
+                "platinum",
+                "nickel",
+                "silver",
+                "stainlesssteel",
+                "steel",
+                "tinbronze",
+                "titanium",
+                "uranium",
+                "zinc",
                 "copper",
                 "iron",
                 "lead"
@@ -26,8 +41,8 @@
         "name": "metal-supportbeam",
         "output": {
             "type": "block",
-            "code": "game:supportbeam-tarnishedmetal-{metal}",
-            "quantity": 6
+            "code": "missingrecipes:supportbeam-{metal}",
+            "quantity": 12
         }
     },
     {
@@ -36,10 +51,31 @@
             "code": "game:ingot-*",
             "name": "metal",
             "allowedVariants": [
+                "bismuth",
+                "bismuthbronze",
+                "blackbronze",
+                "brass",
+                "chromium",
+                "cupronickel",
+                "electrum",
+                "gold",
+                "meteoriciron",
+                "molybdochalkos",
+                "platinum",
+                "nickel",
+                "silver",
+                "stainlesssteel",
                 "steel",
-                "iron"
+                "tinbronze",
+                "titanium",
+                "uranium",
+                "zinc",
+                "copper",
+                "iron",
+                "lead"
             ]
         },
+        
         "pattern": [
             [
                 "__________",
@@ -60,7 +96,7 @@
         "name": "metal-supportbeam",
         "output": {
             "type": "block",
-            "code": "game:supportchain",
+            "code": "missingrecipes:supportchain-{metal}",
             "quantity": 12
         }
     }
